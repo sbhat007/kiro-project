@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Python virtual environments
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# Environment variables - NEVER commit secrets
+.env
+.env.*
+!.env.example
+
+# SQLite database files
+*.db
+
+# Testing artifacts
+.pytest_cache/
+.hypothesis/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Logs
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build output
+/frontend/build/
